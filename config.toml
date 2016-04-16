@@ -1,0 +1,34 @@
+baseurl = "https://miguel.moll.ninja/"
+title = "betcha can't stick it "
+languageCode = "en-us"
+theme = "blackburn"
+copyright = "&copy; 2016. All rights reserved."
+pygmentsUseClasses = true
+
+[Params]
+  # Shown in the home page
+  brand = "Miguel Moll"
+  subtitle = "Mix topics of a technofile. Gamedev, programming, sysadmin, etc."
+  # googleAnalytics = "Your Google Analytics tracking ID"
+  # disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  # highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+
+[Author]
+  name = "Miguel Moll"
+  email = "youremail@domain.com"
+  github = "MiguelMoll"
+  twitter = "radioact1ve"
+  linkedin = "in/miguelmoll"
+
+
+[Social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  linkedin = "miguelmoll"
+  github = "MiguelMoll"
+  twitter = "radioact1ve"
+  googleplus = "MiguelMoll"

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on betcha can&#39;t stick it </title>
+    <link>https://miguel.moll.ninja/post/</link>
+    <description>Recent content in Posts on betcha can&#39;t stick it </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>youremail@domain.com (Miguel Moll)</managingEditor>
+    <webMaster>youremail@domain.com (Miguel Moll)</webMaster>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 13 Apr 2016 19:37:53 -0400</lastBuildDate>
+    <atom:link href="https://miguel.moll.ninja/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>First Try!</title>
+      <link>https://miguel.moll.ninja/post/first-try/</link>
+      <pubDate>Wed, 13 Apr 2016 19:37:53 -0400</pubDate>
+      <author>youremail@domain.com (Miguel Moll)</author>
+      <guid>https://miguel.moll.ninja/post/first-try/</guid>
+      <description>&lt;p&gt;Finally moved the site over to &lt;a href=&#34;http://www.gohugo.io/&#34;&gt;Hugo&lt;/a&gt;! Ghost was fun for a while, but it just didn&amp;rsquo;t make sense for me to run a server at all. Static site generator such as Hugo is a perfect fit.&lt;/p&gt;
+
+&lt;p&gt;Hopefully I just use it more!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nice hat to go with that Linux</title>
+      <link>https://miguel.moll.ninja/post/Nice-hat-to-go-with-that-Linux/</link>
+      <pubDate>Mon, 10 Aug 2015 15:37:53 -0400</pubDate>
+      <author>youremail@domain.com (Miguel Moll)</author>
+      <guid>https://miguel.moll.ninja/post/Nice-hat-to-go-with-that-Linux/</guid>
+      <description>&lt;p&gt;If it wasn’t made clear with my last post, I really like Fedora. I also run CentOS on all of my servers while professionally I’ve mainly used Ubuntu Server. I gave Fedora Server a spin one day but I’m not sure how I feel about the frequent upgrades I’d have to manage. Big fan of RedHat overall. I admit the bias while currently reading The Open Organization.&lt;/p&gt;
+
+&lt;p&gt;What I believe grabs me most is the technology ecosystem that comes from the RedHat/Fedora world. Projects like Fedora, systemd, project atomic, etc while the countless contribution to upstream such as GNOME, wayland, KVM and so on. It’s hard to find a mainstream open source project that hasn’t been touched in some way by RedHat. And to be fair that can be said by a number of organizations too.&lt;/p&gt;
+
+&lt;p&gt;As a programmer by trade who is currently dabbling in the world of DevOps (actually in my title…), I really want to give back to the community that has given so much to me. I fairly often contribute back in the form of documentation clarifications and corrections to various unrelated projects. I’ve always believe that wasn’t enough. It’s time I contribute more. Best way I believe to start is through code. My main focus initially will be with Fedora (used as an umbrella term) doing what I can with Python. After that we’ll see what happens. I’d really love to use Go in some capacity. I’ll have to look into what options are available in that regard.&lt;/p&gt;
+
+&lt;p&gt;With that said, I’m an open source advocate all around. I (usually) don’t care who the backer is, RedHat or for example Canonical, if it’s open I’m all for it. This is just my fan boy post. I love, respect and appreciate A LOT of open source project unrelated to RedHat. As it should be.&lt;/p&gt;
+
+&lt;p&gt;As a side note, I see so much potential in the Fedora distribution itself. Wouldn’t it be great to have an Fedora-based OS with accommodations for a general purpose user? Back by a sleek and well constructive laptop that doesn’t break the bank account. One can only dream.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FreeBSD confession</title>
+      <link>https://miguel.moll.ninja/post/FreeBSD-confession/</link>
+      <pubDate>Wed, 08 Jul 2015 20:52:24 -0400</pubDate>
+      <author>youremail@domain.com (Miguel Moll)</author>
+      <guid>https://miguel.moll.ninja/post/FreeBSD-confession/</guid>
+      <description>&lt;p&gt;Ever since I learned about this whole Linux thing I couldn’t put it down. Learning new things left and right. From programming to operations, it seemed the knowledge wouldn’t stop coming. My first distro was RedHat Linux 7.0. I do not miss those days downloading an ISO file over dialup using a resume-capable download manager. But I believe because of that first RedHat experience is why I love Fedora till this day. There was a time around Fedora 15-ish were we stopped talking for a bit (Debian is my 2nd home and I blame most of that on GNOME) but then Fedora 19 and everything after has been spot on. So I’ve been using Linux personally since 2001 and professionally for about &lt;sup&gt;3&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; years. I really like it.&lt;/p&gt;
+
+&lt;p&gt;With that said, I have been flirting a lot with FreeBSD. Never had time to play with it thoroughly on my free time (professionally limited to pfsense) but I hope to change that. To be clear from the get go, I like systemd and believe it’s doing a great job. Far from perfect but it works and in my honest opinion heading in the right direction. I’m looking into FreeBSD because it’s doing a lot of things right, not because Linux is doing it wrong. “The Unix Way”&amp;trade; doesn’t really interest me. I’m OK with new things if they do it better. Change is good in my book.&lt;/p&gt;
+
+&lt;p&gt;The awesome community, handbook, documentation and tech is just to much to ignore anymore. And I’ve known about most of this since 7.0. I know, it’s been a long time. List includes but not limited to ZFS, ports, pkg, jails, capsicum and recently bhyve. Also really interested in how the project tackles the init problem. Throw in the awesome work being done by PC-BSD and BSDNOW, it’s hard not to get excited. Because of all of this, I will dedicate one laptop and as many servers as I can to FreeBSD. I really don’t want to delay this any longer. Also planning out a FreeNAS box and when I can flash a community approved router with pfsense or vanilla FreeBSD. Haven’t decided on that one yet. I’m sure it will be fun and exciting.&lt;/p&gt;
+
+&lt;p&gt;Basically what I’m saying is: Linux is awesome. FreeBSD is awesome.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
