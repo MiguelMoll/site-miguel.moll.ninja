@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.17-DEV" />
 
-  <title>First Try! &middot; betcha can&#39;t stick it </title>
+  <title>Signing VirtualBox Kernel Drivers &middot; betcha can&#39;t stick it </title>
 
   
   
@@ -155,7 +155,7 @@
 
 
 <div class="header">
-  <h1>First Try!</h1>
+  <h1>Signing VirtualBox Kernel Drivers</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -164,33 +164,43 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>13 Apr 2016, 19:37</time>
+    <time>06 Jun 2016, 22:23</time>
   </div>
 
   
 
   
+  
+  
+  
 
+  
+  
+  
   
 
 </div>
 
-  <p>Finally moved the site over to <a href="http://www.gohugo.io/">Hugo</a>! Ghost was fun for a while, but it just didn&rsquo;t make sense for me to run a server at all. Static site generator such as Hugo is a perfect fit.</p>
+  <p>I recently came across an issue with VirtualBox and Fedora 23 that took me a good while to address. With Secure Boot enabled, the built kernel modules failed to load. Instead of disabling secure boot, I decided to tackle the problem head on. Hopefully this will be use for some, most likely my future self.</p>
 
-<p>Hopefully I just use it more!</p>
+<p>I tried installing VirtualBox via both the repos and  <a href="https://www.virtualbox.org/wiki/Downloads">website</a> with no luck. And after various logs referring to <code>dmesg</code> with nothing of value, off to the interwebs I went. As this the first time I didn&rsquo;t disable secure boot (honestly I forgot) I didn&rsquo;t know as of Fedora 22 drivers need to be signed. Good to know.</p>
+
+<p>Credit where credit is due: <a href="http://gorka.eguileor.com/vbox-vmware-in-secureboot-linux/">http://gorka.eguileor.com/vbox-vmware-in-secureboot-linux/</a></p>
+
+<p>That useful blogpost really saved me. I could copy/paste the entire thing here, but sharing the link works better. It includes some extra tidbits for VMware.</p>
 
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://miguel.moll.ninja/post/Nice-hat-to-go-with-that-Linux/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://miguel.moll.ninja/post/first-try/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://miguel.moll.ninja/post/Nice-hat-to-go-with-that-Linux/">Nice hat to go with that Linux</a>
+      <a href="https://miguel.moll.ninja/post/first-try/">First Try!</a>
     </nav>
     
   </div>
@@ -199,14 +209,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://miguel.moll.ninja/post/sign-vbox-kdrv/">Signing VirtualBox Kernel Drivers</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://miguel.moll.ninja/post/sign-vbox-kdrv/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

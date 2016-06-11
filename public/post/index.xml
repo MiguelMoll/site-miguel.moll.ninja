@@ -9,8 +9,24 @@
     <managingEditor>youremail@domain.com (Miguel Moll)</managingEditor>
     <webMaster>youremail@domain.com (Miguel Moll)</webMaster>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 13 Apr 2016 19:37:53 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jun 2016 22:23:23 -0400</lastBuildDate>
     <atom:link href="https://miguel.moll.ninja/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Signing VirtualBox Kernel Drivers</title>
+      <link>https://miguel.moll.ninja/post/sign-vbox-kdrv/</link>
+      <pubDate>Mon, 06 Jun 2016 22:23:23 -0400</pubDate>
+      <author>youremail@domain.com (Miguel Moll)</author>
+      <guid>https://miguel.moll.ninja/post/sign-vbox-kdrv/</guid>
+      <description>&lt;p&gt;I recently came across an issue with VirtualBox and Fedora 23 that took me a good while to address. With Secure Boot enabled, the built kernel modules failed to load. Instead of disabling secure boot, I decided to tackle the problem head on. Hopefully this will be use for some, most likely my future self.&lt;/p&gt;
+
+&lt;p&gt;I tried installing VirtualBox via both the repos and  &lt;a href=&#34;https://www.virtualbox.org/wiki/Downloads&#34;&gt;website&lt;/a&gt; with no luck. And after various logs referring to &lt;code&gt;dmesg&lt;/code&gt; with nothing of value, off to the interwebs I went. As this the first time I didn&amp;rsquo;t disable secure boot (honestly I forgot) I didn&amp;rsquo;t know as of Fedora 22 drivers need to be signed. Good to know.&lt;/p&gt;
+
+&lt;p&gt;Credit where credit is due: &lt;a href=&#34;http://gorka.eguileor.com/vbox-vmware-in-secureboot-linux/&#34;&gt;http://gorka.eguileor.com/vbox-vmware-in-secureboot-linux/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;That useful blogpost really saved me. I could copy/paste the entire thing here, but sharing the link works better. It includes some extra tidbits for VMware.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>First Try!</title>

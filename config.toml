@@ -3,7 +3,6 @@ title = "betcha can't stick it "
 languageCode = "en-us"
 theme = "blackburn"
 copyright = "&copy; 2016. All rights reserved."
-pygmentsUseClasses = true
 
 [Params]
   # Shown in the home page
